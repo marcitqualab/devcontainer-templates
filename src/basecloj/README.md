@@ -1,9 +1,12 @@
 
-# Basic clojure devcontainer tempalte
+# base clojure development environment (basecloj)
 
-A devcontainer template with the minimum clojure tools and configuration, this template is intended to create new greenfield clojure project that should be further customised on specific project needs. 
+Base line devcontainer to start a new clojure project.
+
+
+
 
 
 ---
 
-
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/marcitqualab/devcontainer-templates/blob/main/src/basecloj/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
