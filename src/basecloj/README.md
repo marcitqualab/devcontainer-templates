@@ -1,17 +1,16 @@
-# Minimal devcontainer with LTS JAVA, official Clojure and clj tools
 
-This template set up a minimal devcontainer environment for new Clojure projects.
+# Base clojure development environment (basecloj)
 
-# Quickstart
+A devcontainer template with the minimum clojure tools and configuration, this template is intended to create new greenfield clojure project that should be further customised on specific project needs. 
 
-0. Install DevContainer VSCode extension and run the command. (Shipt+Crtl+P) 'Dev Containers: Install devcontainer CLI'
-1. On a new terminal run `devcontainer templates apply -t ghcr.io/scicloj/devcontainer-templates/basecloj` to create a new project.
-2. [Start the Calva repl](https://calva.io/getting-started/)
+## Options
 
-3. Create a new app, lib, template and more: 
-    * Read [deps-new](https://github.com/seancorfield/deps-new)
-    * Read [clj-new docs](https://github.com/seancorfield/clj-new) 
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| imageTag | Tag of official Clojure image | string | temurin-21-tools-deps-jammy |
 
-## Customization
-4. Install more features in devcontainer: https://containers.dev/features
 
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/marcitqualab/devcontainer-templates/blob/main/src/basecloj/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
